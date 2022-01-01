@@ -1,3 +1,6 @@
 ---
 - name: working with ansible
   hosts= all
+  tasks:
+      name: working with command module
+      command: -a
