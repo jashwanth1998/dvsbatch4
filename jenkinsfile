@@ -1,0 +1,15 @@
+pipline {
+       agent 'any'
+       stages {
+                stage ("stage") {
+                         steps {
+                                 script {
+                                          /* comment1
+                                             comment2
+                                             comment3*/
+                                             println "Hi Team welcome to DVS Devops"
+                                  }
+                           }
+                }
+       }
+}
