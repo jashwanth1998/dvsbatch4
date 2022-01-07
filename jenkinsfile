@@ -1,16 +1,12 @@
-pipleline {
-          agent 'any'
-          
-          stages {
-                  stage("stage1") {
-                          steps {
-                               script {
-                                          /*comment1
-                                          comment2
-                                          comment3*/
-                                          println "Hi Team welcome to DVS Devops"
-                                 }
-                          }
-                  }
-          }
- }
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello JASHWANTH'
+            }
+        }
+    }
+}
+
