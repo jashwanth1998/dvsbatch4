@@ -4,9 +4,6 @@ pipleline {
                   stage("stage1") {
                           steps {
                                  script {
-                                          /* comment1
-                                          comment2
-                                          comment3 */
                                           println "Hi Team welcome to DVS Devops"
                                  }
                           }
