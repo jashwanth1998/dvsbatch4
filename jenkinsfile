@@ -1,0 +1,15 @@
+pipleline {
+          agent 'any'
+          stages {
+                  stage("stage1") {
+                          steps {
+                                 script {
+                                          /*comment 1
+                                          comment2
+                                          comment3*/
+                                          println "Hi Team welcome to DVS Devops"
+                                 }
+                          }
+                  }
+          }
+}
